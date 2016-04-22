@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mortbay.jetty:jetty-naming:6.1.25">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-naming/6.1.25/1f3c3f25eeeb80728125e91e3e807bdd6b217ea7/jetty-naming-6.1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-naming/6.1.25/f1938b2059a1327a2fc7e711653d87d6cecb9f2a/jetty-naming-6.1.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

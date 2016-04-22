@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.sbt:sbt-interface:0.13.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.sbt/sbt-interface/0.13.7/2b4ca028f20dd4fccfc134563190f7ef18c4c946/sbt-interface-0.13.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.sbt/sbt-interface/0.13.7/d27378fc230da40d36aaf3ed9c7a955ddc0ba17/sbt-interface-0.13.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

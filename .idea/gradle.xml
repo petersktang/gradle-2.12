@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/opt/local/bin" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/subprojects/announce" />
+            <option value="$PROJECT_DIR$/subprojects/antlr" />
+            <option value="$PROJECT_DIR$/subprojects/base-services" />
+            <option value="$PROJECT_DIR$/subprojects/base-services-groovy" />
+            <option value="$PROJECT_DIR$/subprojects/build-comparison" />
+            <option value="$PROJECT_DIR$/subprojects/build-init" />
+            <option value="$PROJECT_DIR$/subprojects/cli" />
+            <option value="$PROJECT_DIR$/subprojects/code-quality" />
+            <option value="$PROJECT_DIR$/subprojects/core" />
+            <option value="$PROJECT_DIR$/subprojects/dependency-management" />
+            <option value="$PROJECT_DIR$/subprojects/diagnostics" />
+            <option value="$PROJECT_DIR$/subprojects/distributions" />
+            <option value="$PROJECT_DIR$/subprojects/docs" />
+            <option value="$PROJECT_DIR$/subprojects/ear" />
+            <option value="$PROJECT_DIR$/subprojects/ide" />
+            <option value="$PROJECT_DIR$/subprojects/ide-native" />
+            <option value="$PROJECT_DIR$/subprojects/integ-test" />
+            <option value="$PROJECT_DIR$/subprojects/internal-integ-testing" />
+            <option value="$PROJECT_DIR$/subprojects/internal-testing" />
+            <option value="$PROJECT_DIR$/subprojects/ivy" />
+            <option value="$PROJECT_DIR$/subprojects/jacoco" />
+            <option value="$PROJECT_DIR$/subprojects/javascript" />
+            <option value="$PROJECT_DIR$/subprojects/jetty" />
+            <option value="$PROJECT_DIR$/subprojects/language-groovy" />
+            <option value="$PROJECT_DIR$/subprojects/language-java" />
+            <option value="$PROJECT_DIR$/subprojects/language-jvm" />
+            <option value="$PROJECT_DIR$/subprojects/language-native" />
+            <option value="$PROJECT_DIR$/subprojects/language-scala" />
+            <option value="$PROJECT_DIR$/subprojects/launcher" />
+            <option value="$PROJECT_DIR$/subprojects/maven" />
+            <option value="$PROJECT_DIR$/subprojects/messaging" />
+            <option value="$PROJECT_DIR$/subprojects/model-core" />
+            <option value="$PROJECT_DIR$/subprojects/model-groovy" />
+            <option value="$PROJECT_DIR$/subprojects/native" />
+            <option value="$PROJECT_DIR$/subprojects/open-api" />
+            <option value="$PROJECT_DIR$/subprojects/osgi" />
+            <option value="$PROJECT_DIR$/subprojects/performance" />
+            <option value="$PROJECT_DIR$/subprojects/platform-base" />
+            <option value="$PROJECT_DIR$/subprojects/platform-jvm" />
+            <option value="$PROJECT_DIR$/subprojects/platform-native" />
+            <option value="$PROJECT_DIR$/subprojects/platform-play" />
+            <option value="$PROJECT_DIR$/subprojects/plugin-development" />
+            <option value="$PROJECT_DIR$/subprojects/plugin-use" />
+            <option value="$PROJECT_DIR$/subprojects/plugins" />
+            <option value="$PROJECT_DIR$/subprojects/publish" />
+            <option value="$PROJECT_DIR$/subprojects/reporting" />
+            <option value="$PROJECT_DIR$/subprojects/resources" />
+            <option value="$PROJECT_DIR$/subprojects/resources-http" />
+            <option value="$PROJECT_DIR$/subprojects/resources-proxy" />
+            <option value="$PROJECT_DIR$/subprojects/resources-s3" />
+            <option value="$PROJECT_DIR$/subprojects/resources-sftp" />
+            <option value="$PROJECT_DIR$/subprojects/scala" />
+            <option value="$PROJECT_DIR$/subprojects/signing" />
+            <option value="$PROJECT_DIR$/subprojects/sonar" />
+            <option value="$PROJECT_DIR$/subprojects/test-kit" />
+            <option value="$PROJECT_DIR$/subprojects/testing-base" />
+            <option value="$PROJECT_DIR$/subprojects/testing-jvm" />
+            <option value="$PROJECT_DIR$/subprojects/testing-native" />
+            <option value="$PROJECT_DIR$/subprojects/tooling-api" />
+            <option value="$PROJECT_DIR$/subprojects/tooling-api-builders" />
+            <option value="$PROJECT_DIR$/subprojects/ui" />
+            <option value="$PROJECT_DIR$/subprojects/wrapper" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

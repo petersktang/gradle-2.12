@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.rubygrapefruit:native-platform:0.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.rubygrapefruit/native-platform/0.10/7e9e453ce43d9ffb8df5371f337e8cfa47a4ea55/native-platform-0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.rubygrapefruit/native-platform/0.10/4929373a91e86ab3b520f156c2903e9c36f48e90/native-platform-0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

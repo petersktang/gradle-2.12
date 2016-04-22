@@ -1,0 +1,17 @@
+dependencies {
+    compile project(":platformJvm")
+    compile project(":platformBase")
+
+    testCompile libraries.groovy
+
+    testRuntime project(":languageJava")
+
+    testFixturesCompile project(":internalIntegTesting")
+}
+
+useClassycle()
+strictCompile()
+useTestFixtures()
+useTestFixtures(sourceSet: 'testFixtures')
+useTestFixtures(project: ':launcher', sourceSet: 'testFixtures')
+

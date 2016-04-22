@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.sbt:incremental-compiler:0.13.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.sbt/incremental-compiler/0.13.7/8fae2a4f5eb13f1251f8ea742cb0c859208fa1db/incremental-compiler-0.13.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.sbt/incremental-compiler/0.13.7/a718c579285b693cd0800dba2ebde90c84bd1ca0/incremental-compiler-0.13.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

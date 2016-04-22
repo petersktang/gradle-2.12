@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.sonarqube:sonarqube:zip:4.3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarqube/sonarqube/4.3.2/e7847b46936a66eca24b9296f4170762cd32d404/sonarqube-4.3.2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

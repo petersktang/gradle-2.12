@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: biz.aQute.bnd:bndlib:2.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/bndlib/2.4.0/de13867e8e5d1f9d6b5ab5cbb16b6cfdbffdc6d2/bndlib-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.aQute.bnd/bndlib/2.4.0/7b098d70eb95b675e54f124c4cd6b9b9e2f7dc22/bndlib-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

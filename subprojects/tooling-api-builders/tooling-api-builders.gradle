@@ -1,0 +1,8 @@
+dependencies {
+    compile project(':testingJvm')
+    compile project(':launcher')
+    compile project(':toolingApi')
+}
+
+useClassycle()
+strictCompile()

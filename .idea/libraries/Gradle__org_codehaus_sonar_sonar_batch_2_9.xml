@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.sonar:sonar-batch:2.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.sonar/sonar-batch/2.9/216f575821523899aac081abda7a9595ca387e28/sonar-batch-2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.sonar/sonar-batch/2.9/a9d854e5029324c3e6f918b2ccee29cec6c59745/sonar-batch-2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

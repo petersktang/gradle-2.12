@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.gradle.sonar:sonar-test-server:war:3.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gradle.sonar/sonar-test-server/3.4/8cd2935ef9615bc5cbe4095c077e1e3ee99610f7/sonar-test-server-3.4.war!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
