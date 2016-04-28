@@ -7,7 +7,7 @@ I tried various settings recommended on the internet to run gradle build behind 
 ### Summary of change
 [Subproject "launcher"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/launcher) is extended to use [Proxy-Vole](https://github.com/petersktang/proxy-vole), to detect corporate proxy setting.
 
-[Subproject "resourcesProxy"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-proxy) is modeled after [subproject "resourcesHttp"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-http) and replace HttpClient by NetHttpTransport supported by [Google Http Java Client](https://developers.google.com/api-client-library/java/google-http-java-client/)
+[Subproject "resourcesProxy"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-proxy) is modeled after [subproject "resourcesHttp"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-http) and replace HttpClient by NetHttpTransport in [Google Http Java Client](https://developers.google.com/api-client-library/java/google-http-java-client/)
 
 [Subproject "resourcesHttp"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-http) is disabled by removing its supporting protocols
 
