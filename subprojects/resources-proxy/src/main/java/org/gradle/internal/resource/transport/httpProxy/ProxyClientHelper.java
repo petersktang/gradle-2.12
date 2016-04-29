@@ -153,8 +153,10 @@ public class ProxyClientHelper implements Closeable {
     private synchronized HttpRequestFactory getClient() {
         if (client == null) {
             this.client = TRANSPORT.createRequestFactory(new HttpRequestInitializer() {
-                public void initialize(HttpRequest request) {
-
+                public void initialize(HttpRequest httpRequest) {
+                    this.initialize(httpRequest);
+                    httpRequest.setConnectTimeout(3 * 60000);  // 3 minutes connect timeout
+                    httpRequest.setReadTimeout(3 * 60000);  // 3 minutes
                 }
             });
             //HttpClientBuilder builder = HttpClientBuilder.create();
