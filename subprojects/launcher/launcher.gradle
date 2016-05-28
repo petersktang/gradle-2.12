@@ -11,7 +11,7 @@ dependencies {
     compile project(':ui')
     compile project(':toolingApi')
     compile project(':native')
-    compile "de.rosstauscher.proxy_vole:proxy_vole:20160330@jar"
+    //compile "de.rosstauscher.proxy_vole:proxy_vole:20160330@jar"
     //compile "com.liferay:com.btr.proxy.vole:20131209@jar"
 
     compile libraries.slf4j_api

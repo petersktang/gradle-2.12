@@ -15,7 +15,6 @@
  */
 package org.gradle.launcher;
 
-import org.gradle.launcher.bootstrap.AutoProxyDetector;
 import org.gradle.launcher.bootstrap.EntryPoint;
 import org.gradle.launcher.bootstrap.ExecutionListener;
 import org.gradle.launcher.cli.CommandLineActionFactory;
