@@ -31,7 +31,7 @@ public class Main extends EntryPoint {
     }
 
     protected void doAction(String[] args, ExecutionListener listener) {
-        AutoProxyDetector.run();
+        // AutoProxyDetector.run();
         createActionFactory().convert(Arrays.asList(args)).execute(listener);
     }
 

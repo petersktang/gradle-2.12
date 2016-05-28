@@ -152,6 +152,8 @@ public class ProxyClientHelper implements Closeable {
 
     private synchronized HttpRequestFactory getClient() {
         if (client == null) {
+            AutoProxyDetector.run();
+            /*
             this.client = TRANSPORT.createRequestFactory(new HttpRequestInitializer() {
                 public void initialize(HttpRequest httpRequest) {
                     this.initialize(httpRequest);
@@ -159,10 +161,19 @@ public class ProxyClientHelper implements Closeable {
                     httpRequest.setReadTimeout(3 * 60000);  // 3 minutes
                 }
             });
+            */
             //HttpClientBuilder builder = HttpClientBuilder.create();
             //builder.setRedirectStrategy(new AlwaysRedirectRedirectStrategy());
             //new HttpClientConfigurer(settings).configure(builder);
             //this.client = builder.build();
+            this.client = new NetHttpTransport.Builder().build()
+                .createRequestFactory(new HttpRequestInitializer() {
+                    public void initialize(HttpRequest httpRequest) {
+                        this.initialize(httpRequest);
+                        httpRequest.setConnectTimeout(3 * 1000);  // 3 seconds connect timeout
+                        httpRequest.setReadTimeout(3 * 1000);  // 3 seconds
+                    }
+                });
         }
         return client;
     }
