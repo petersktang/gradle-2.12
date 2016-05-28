@@ -50,6 +50,7 @@ public class AutoProxyDetector {
         * to detected OS, we will change research parameters
         */
         final String osName = System.getProperty("os.name").toLowerCase();
+        System.out.println(osName);
         if (osName.startsWith("windows")) {
             pSearch.addStrategy(ProxySearch.Strategy.IE);
             pSearch.addStrategy(ProxySearch.Strategy.WIN);
