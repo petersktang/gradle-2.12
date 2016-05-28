@@ -152,7 +152,7 @@ public class ProxyClientHelper implements Closeable {
 
     private synchronized HttpRequestFactory getClient() {
         if (client == null) {
-            AutoProxyDetector.run();
+            AutoProxyDetector.detectProxy();
             /*
             this.client = TRANSPORT.createRequestFactory(new HttpRequestInitializer() {
                 public void initialize(HttpRequest httpRequest) {
