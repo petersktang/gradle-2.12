@@ -40,6 +40,7 @@ public class AutoProxyDetector {
     public static void run() {
         defaultProxySearch("https://jcenter.bintray.com");
     }
+
     public static void detectProxy() {
         /* Creating a new proxy research strategy will initiate proxy-vole to
         * scan os configuration and system default browser
@@ -52,6 +53,9 @@ public class AutoProxyDetector {
         if (osName.startsWith("windows")) {
             pSearch.addStrategy(ProxySearch.Strategy.IE);
             pSearch.addStrategy(ProxySearch.Strategy.WIN);
+            /* -------------------------------------------- */
+            pSearch.addStrategy(ProxySearch.Strategy.JAVA);
+            pSearch.addStrategy(ProxySearch.Strategy.BROWSER);
         } else if (osName.startsWith("linux")) {
             pSearch.addStrategy(ProxySearch.Strategy.GNOME);
             pSearch.addStrategy(ProxySearch.Strategy.KDE);
@@ -63,6 +67,7 @@ public class AutoProxyDetector {
         // For proxy-vole to be effective, it must be registered to the JVM
         ProxySelector.setDefault(pSearch.getProxySelector());
     }
+
     public static void detectProxy2() {
         ProxySelector defaultProxySelector = ProxySelector.getDefault();
         /*
