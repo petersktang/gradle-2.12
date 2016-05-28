@@ -5,7 +5,7 @@
 I tried various settings recommended on the internet to run gradle build behind corporate NTLM proxy. None of them works for me. I decided to extend gradle by creating a subproject within gradle. The change is based on [gradle 2.12](http://gradle.org/gradle-download/)
 
 ### Summary of change
-[Subproject "launcher"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/launcher) is extended to use [Proxy-Vole](https://github.com/petersktang/proxy-vole), to detect corporate proxy setting.
+[Subproject "launcher"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/launcher) is extended to use [Proxy-Vole](https://github.com/petersktang/proxy-vole), to detect corporate proxy setting. Trying new approach by migrating this code into resourcesProxy instead.
 
 [Subproject "resourcesProxy"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-proxy) is modeled after [subproject "resourcesHttp"](https://github.com/petersktang/gradle-2.12/tree/master/subprojects/resources-http) and replace HttpClient by NetHttpTransport in [Google Http Java Client](https://developers.google.com/api-client-library/java/google-http-java-client/)
 
