@@ -4,6 +4,7 @@ import com.btr.proxy.search.ProxySearch;
 
 import java.net.*;
 import java.util.List;
+import java.util.Arrays;
 
 public class AutoProxyDetector {
 
@@ -61,7 +62,17 @@ public class AutoProxyDetector {
 
         // For proxy-vole to be effective, it must be registered to the JVM
         ProxySelector.setDefault(pSearch.getProxySelector());
-
+    }
+    public static void detectProxy2() {
+        ProxySelector defaultProxySelector = ProxySelector.getDefault();
+        /*
+        ProxySelector.setDefault(new ProxySelector() {
+            @Override
+            public List<Proxy> select(URI uri) {
+                return Arrays.asList(new Proxy(Proxy.Type.HTTP, new InetSocketAddress(System.getProperty("http.proxyHost"), Integer.parseInt(System.getProperty("http.proxyPort")))));
+            }
+        });
+        */
     }
 
 }
